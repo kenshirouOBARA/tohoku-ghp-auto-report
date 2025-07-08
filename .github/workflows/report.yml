@@ -18,5 +18,5 @@ jobs:
         env:
           DB_URL: ${{ secrets.DB_URL }}
           GMAIL_USER: ${{ ghp.research.rx@gmail.com }}
-          GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
+          GMAIL_PASS: ${{ gpmi ggaf fkfj simx }}
         run: python -m src.ghp_report
