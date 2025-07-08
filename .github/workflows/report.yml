@@ -17,6 +17,6 @@ jobs:
       - name: Generate & Mail report
         env:
           DB_URL: ${{ secrets.DB_URL }}
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_USER: ${{ ghp.research.rx@gmail.com }}
           GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
         run: python -m src.ghp_report
