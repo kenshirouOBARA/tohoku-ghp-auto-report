@@ -21,7 +21,7 @@ jobs:
       - name: Generate & Mail report
         env:
           DB_URL:     ${{ secrets.DB_URL }}
-          GMAIL_USER: ${{ ghp.research.rx@gmail.com  }}
-          GMAIL_PASS: ${{ gpmiggaffkfjsimx }}
+          GMAIL_USER: ${{ secrets.ghp.research.rx@gmail.com  }}
+          GMAIL_PASS: ${{ secrets.gpmiggaffkfjsimx }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}   # GPT 要約を使う場合だけ
         run: python -m src.ghp_report
