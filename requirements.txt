@@ -1,0 +1,7 @@
+beautifulsoup4
+requests
+pdfplumber
+pytesseract
+sumy
+python-dateutil
+sqlite-utils
