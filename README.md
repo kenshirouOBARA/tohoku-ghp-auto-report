@@ -1,0 +1,1 @@
+# tohoku-ghp-auto-report
